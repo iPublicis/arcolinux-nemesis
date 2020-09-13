@@ -24,6 +24,9 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 cp -f $installed_dir/settings/autostart/* $HOME"/.config/autostart"
 
+#uncommenting here to know if the ArcoLinuxBs are completely done
+#gsettings set org.blueberry use-symbolic-icons false
+
 echo "################################################################"
 echo "####                      autostart added                 ######"
 echo "################################################################"
